@@ -1,32 +1,32 @@
 package com.azna;
 
 public class User {
-    private String name;
+    private String username;
     private int age;
     private String password;
 
     public User(String name, int age, String password) {
-        this.name = name;
+        this.username = name;
         this.age = age;
         this.password = password;
     }
 
     public User(String name, int age) {
-        this.name = name;
+        this.username = name;
         this.age = age;
     }
 
     public User() {
-        this.name = "unknown";
+        this.username = "unknown";
         this.age = -1;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setUsername(String name) {
+        this.username = name;
     }
 
-    public String getName() {
-        return this.name;
+    public String getUsername() {
+        return this.username;
     }
 
     public void setAge(int age) {
